@@ -1,0 +1,52 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <style>
+            @import url('http://fonts.cdnfonts.com/css/cursed-timer-ulil');
+</style>
+
+    </head>
+    <body>
+        <div class="container">
+            <div id="home-title">
+                <h3>HOME</h3>
+                <div class="box-1">
+                <h5 id="home-point-text">0</h5>
+                </div>
+                <br>
+                <br>
+                <div id="box">
+                <div id="rectangle-1">
+                <button class="button-1" onclick="homeIncrement1()">+1</button>
+                </div>
+                <div id="rectangle-2">
+                <button class="button-2" onclick="homeIncrement2()">+2</button>
+                </div>
+                <div id="rectangle-3">
+                <button class="button-3" onclick="homeIncrement3()">+3</button>
+                </div>
+                </div>
+            </div>
+            <div id="guest-title">
+                <h3>GUEST</h3>
+                <div class="box-1">
+                <h5 id="guest-point-text">0</h5>
+                </div>
+                <br>
+                <br>
+                <div id="box">
+                <div id="rectangle-1">
+                <button class="button-1" onclick="guestIncrement1()">+1</button>
+                </div>
+                <div id="rectangle-2">
+                <button class="button-2" onclick="guestIncrement2()">+2</button>
+                </div>
+                <div id="rectangle-3">
+                <button class="button-3" onclick="guestIncrement3()">+3</button>
+                </div>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
